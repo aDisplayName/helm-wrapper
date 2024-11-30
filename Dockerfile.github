@@ -11,7 +11,9 @@ COPY --from=build /app/bin/helm-wrapper /helm-wrapper
 
 ENTRYPOINT [ "/helm-wrapper" ]
 
-FROM scratch    # Final stage 
+
+FROM scratch 
+# Final stage
 ENV GIN_MODE=release
 
 # COPY config-example.yaml  /config.yaml
