@@ -20,11 +20,8 @@
     ],
     "branches": [
       {
-        "name": "main",
+        "name": "master",
         "prerelease": "beta"
-      },
-      {
-        "name": "release"
       },
       {
         "name": "pr/add-container-build",
