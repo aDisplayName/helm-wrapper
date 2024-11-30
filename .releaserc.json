@@ -11,9 +11,10 @@
       [
         "@semantic-release/github",
         {
+          "successComment": false,
+          "failComment": false,
           "assets": [
-            "CHANGELOG.md",
-            "../assets/*"
+            "CHANGELOG.md"
           ]
         }
       ] 
