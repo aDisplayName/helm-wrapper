@@ -24,6 +24,9 @@
         "prerelease": "beta"
       },
       {
+        "name": "release"
+      },
+      {
         "name": "pr/add-container-build",
         "prerelease": "alpha"
       }
