@@ -215,6 +215,7 @@ jobs:
         with:
           context: repository
           platforms: linux/amd64
+          file: repository/Dockerfile.github
           build-args: |
             "VERSION=${{ env.VERSION }}"
             "REVISION=${{ github.sha }}"
@@ -228,6 +229,7 @@ jobs:
         with:
           context: repository
           platforms: linux/amd64
+          file: repository/Dockerfile.github
           build-args: |
             "VERSION=${{ env.VERSION }}"
             "REVISION=${{ github.sha }}"
@@ -241,6 +243,7 @@ jobs:
         with:
           context: repository
           platforms: linux/amd64
+          file: repository/Dockerfile.github
           build-args: |
             "VERSION=${{ env.VERSION }}"
             "REVISION=${{ github.sha }}"
