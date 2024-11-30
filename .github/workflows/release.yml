@@ -161,7 +161,7 @@ jobs:
     env:
       VERSION: ${{ needs.release.outputs.version }}
       PRERELEASE: ${{ needs.release.outputs.prerelease }}
-      GHCR_IMAGE: "ghcr.io/adisplayname/kube-image-keeper"
+      GHCR_IMAGE: "ghcr.io/adisplayname/helm-wrapper"
     steps:
       - name: Configure git
         run: |
