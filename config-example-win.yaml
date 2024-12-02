@@ -1,0 +1,4 @@
+uploadPath: C:\temp\charts
+helmRepos:
+  - name: bitnami
+    url: https://charts.bitnami.com/bitnami

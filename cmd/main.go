@@ -37,7 +37,14 @@ func main() {
 		config     string
 	)
 
-	err := flag.Set("logtostderr", "true")
+	ex, err := os.Executable()
+	if err != nil {
+		panic(err)
+	}
+	exPath := filepath.Dir(ex)
+	fmt.Println(exPath)
+
+	err = flag.Set("logtostderr", "true")
 	if err != nil {
 		glog.Fatalln(err)
 	}
